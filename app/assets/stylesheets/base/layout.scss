@@ -1,0 +1,72 @@
+body {
+  background: #eee;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  background: red;
+  border-bottom: 1px solid black;
+}
+
+main {
+  width: 900px;
+  margin: auto;
+  // border-left: 1px solid black;
+  // border-right: 1px solid black;
+}
+
+header img {
+  width: 80px;
+  height: 80px;
+  display: block;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link {
+  font-weight: bolder;
+}
+
+.btn,
+.btn>a:link,
+.btn>a:visited {
+  border-radius: 3px;
+  background-color: white;
+  border: 1px solid #d0d0d0;
+  color: black;
+  padding: 1px;
+  text-decoration: none;
+}
+
+.btn:hover, .btn>a:hover {
+  background-color: #636262;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user_log_in input {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+input, textarea{
+  border: 1px solid #eee;
+  background-color: white;
+  margin: 6px;
+
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
